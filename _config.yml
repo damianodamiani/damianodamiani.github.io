@@ -6,10 +6,10 @@
 # --- Required options --- #
 
 # Name of website
-title: Test for DVCS 2021   
+title: DVCS 2021
 
 # Your name to show in the footer
-author: Orga Team
+author: Some Person
 
 # --- List of links in the navigation bar --- #
 
@@ -41,7 +41,7 @@ round-avatar: true
 social-network-links:
   email: "someone@example.com"
   facebook: deanattali
-#  github: daattali
+# github: daattali
   twitter: daattali
 #  patreon: DeanAttali
 #  youtube: c/daattali
@@ -65,6 +65,7 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
+rss-description: This website is a virtual proof that I'm awesome
 
 # --- General options --- #
 
@@ -72,12 +73,11 @@ social-network-links:
 share-links-active:
   twitter: true
   facebook: true
-  linkedin: true
+  linkedin: false
   vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -95,16 +95,16 @@ feed_show_tags: true
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
+navbar-col: "#c9cac8"
+navbar-text-col: "#004a99"
+navbar-border-col: "#c1002a"
 page-col: "#FFFFFF"
 text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
+link-col: "#c1002a"
+hover-col: "#004a99"
+footer-col: "#c9cac8"
+footer-text-col: "#004a99"
+footer-link-col: "#c1002a"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
@@ -186,7 +186,7 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Europe/Berlin"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
